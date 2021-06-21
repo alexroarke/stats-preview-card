@@ -29,9 +29,11 @@
   <div class="container">
     <div class="child">
       <div class="img-wrapper">
-        <div class="add-image"></div>
-        <!-- <img class="img img-header" src="/images/image-header-mobile.jpg" alt="mobile-img"> -->
         <div class="img-overlay"></div>
+        <picture class="img img-header">
+        <source media="(min-width: 1440px)" srcset="images/image-header-desktop.jpg">
+        <img class="img img-header" src="/images/image-header-mobile.jpg" alt="mobile-img">
+        </picture>
       </div>
       <div class="texts">
         <h1>
