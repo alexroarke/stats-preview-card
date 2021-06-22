@@ -115,7 +115,7 @@ li {
   .container {
     display: flex;
     min-width: 900px;
-    min-height: 50vh;
+    min-height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,7 +140,7 @@ li {
   }
 
   .img-desktop {
-    display: block;
+    display: none;
     /* object-fit: cover; */
   }
 
