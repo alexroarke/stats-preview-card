@@ -86,11 +86,6 @@ ul {
   display: none;
 }
 
-.img-mobile,
-.img-desktop {
-  min-height: 100%;
-}
-
 /* .texts {
   margin-top: 30px;
 } */
@@ -140,7 +135,7 @@ li {
   }
 
   .img-desktop {
-    display: none;
+    display: block;
     /* object-fit: cover; */
   }
 
