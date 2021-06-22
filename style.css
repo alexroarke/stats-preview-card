@@ -23,7 +23,7 @@ body {
   font-family: 'Inter', sans-serif;
   background: var(--main-background);
   font-size: 15px;
-
+  min-height: 100vh;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
 
 .subtitle {
   /* font-family: 'Lexend Deca', sans-serif; */
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   color: var(--main-paragraph);
   line-height: 1.5;
   margin: 20px 0px 40px 0px;
@@ -82,6 +82,14 @@ ul {
   display: block;
 }
 
+.img-desktop {
+  display: none;
+}
+
+.img-mobile, .img-desktop{
+  min-height: 100%
+}
+
 .texts {
   margin-top: 30px;
 }
@@ -98,11 +106,18 @@ li {
   line-height: 1.0;
 }
 
-@media (min-width: 1440px) {
-  .container {
-    padding: 200px;
-    height: 100vh;
+@media (min-width: 1020px) {
+  body {
+    text-align: unset;
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+  }
+
   .child {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -111,5 +126,21 @@ li {
   .img-wrapper {
     order: 2;
   }
+
+  .img-mobile {
+    display: none;
+  }
   
+  .img-desktop {
+    display: block;
+  }
+  
+  ul {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  .texts {
+    padding: 10%
+  }
 }
