@@ -107,7 +107,7 @@ li {
   line-height: 1;
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 900px) {
   body {
     text-align: unset;
   }
