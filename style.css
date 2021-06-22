@@ -135,7 +135,7 @@ li {
   }
 
   .img-desktop {
-    display: inline-block;
+    display: inline;
     /* object-fit: cover; */
   }
 
