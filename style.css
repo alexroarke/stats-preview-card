@@ -131,11 +131,11 @@ li {
   }
 
   .img-mobile {
-    display: none;
+    display: block;
   }
 
   .img-desktop {
-    display: inline;
+    display: none;
     /* object-fit: cover; */
   }
 
