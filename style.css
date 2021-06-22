@@ -141,6 +141,7 @@ li {
 
   .img-desktop {
     display: block;
+    object-fit: cover;
   }
 
   ul {
