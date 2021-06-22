@@ -37,7 +37,7 @@ body {
 }
 
 .texts {
-  padding: 0px 20px;
+  padding: 10%;
 }
 
 .subtitle {
@@ -79,7 +79,7 @@ ul {
   width: 100%;
   min-height: 100%;
   border-radius: 5px 5px 0 0;
-  /* display: block; */
+  display: block;
 }
 
 .img-desktop {
@@ -127,6 +127,10 @@ li {
     grid-template-columns: 1fr 1fr;
   }
 
+  .img {
+    display: unset;
+  }
+
   .img-wrapper {
     order: 2;
   }
@@ -142,9 +146,5 @@ li {
   ul {
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .texts {
-    padding: 10%;
   }
 }
