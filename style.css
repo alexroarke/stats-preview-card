@@ -38,7 +38,6 @@ body {
 
 .texts {
   padding: 10%;
-  max-height: 100%;
 }
 
 .subtitle {
@@ -116,7 +115,7 @@ li {
   .container {
     display: flex;
     min-width: 900px;
-    min-height: 400px;
+    min-height: 50vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -142,7 +141,7 @@ li {
 
   .img-desktop {
     display: block;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
 
   ul {
