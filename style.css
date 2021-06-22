@@ -75,16 +75,17 @@ ul {
   opacity: 0.6;
 }
 
-.img {
+.picture {
   max-width: 100%;
-  min-height: 100%;
-  border-radius: 5px 5px 0 0;
-  object-fit: cover;
-  display: block;
+  max-height: 100%;
 }
 
-.img-desktop {
-  display: none;
+img {
+  object-fit: cover;
+  /* border-radius: 5px 5px 0 0; */
+  max-width: 100%;
+  min-height: 100%;
+  display: block;
 }
 
 /* .texts {
@@ -129,15 +130,6 @@ li {
 
   .img-wrapper {
     order: 2;
-  }
-
-  .img-mobile {
-    display: block;
-  }
-
-  .img-desktop {
-    display: none;
-    /* object-fit: cover; */
   }
 
   ul {
